@@ -81,12 +81,12 @@ filetype off
 set rtp+=~/.vim/vundle.git
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
-Bundle 'unite.vim'
-Bundle 'surround.vim'
-Bundle 'tComment'
-Bundle 'quickrun.vim'
-Bundle 'thinca/vim-ref'
-Bundle 'scrooloose/nerdtree'
+NeoBundle 'gmarik/vundle'
+NeoBundle 'unite.vim'
+NeoBundle 'surround.vim'
+NeoBundle 'tComment'
+NeoBundle 'quickrun.vim'
+NeoBundle 'thinca/vim-ref'
+NeoBundle 'scrooloose/nerdtree'
 
 filetype plugin indent on
