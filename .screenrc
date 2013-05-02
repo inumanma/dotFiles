@@ -25,3 +25,6 @@ termcapinfo kterm* 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
 # Binding Keys
 bind w windowlist -b
 
+defencoding utf8
+encoding utf8 utf8
+

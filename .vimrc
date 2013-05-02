@@ -77,9 +77,11 @@ endif
 " プラグインの管理を行う vundleプラグインの設定
 filetype off
 
-" set rtp+=~/.vim/bundle/vundle/
-set rtp+=~/.vim/vundle.git
-call vundle#rc()
+if has('vim_starting')
+	set runtimepath+='path to neobundle directory'
+
+	call neobundle#rc(expand('~/.bundle'))
+endif
 
 NeoBundle 'gmarik/vundle'
 NeoBundle 'unite.vim'
