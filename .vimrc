@@ -78,12 +78,11 @@ endif
 filetype off
 
 if has('vim_starting')
-	set runtimepath+='path to neobundle directory'
-
+	set runtimepath+=~/.vim/bundle/neobundle.vim
 	call neobundle#rc(expand('~/.bundle'))
 endif
 
-NeoBundle 'gmarik/vundle'
+NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'unite.vim'
 NeoBundle 'surround.vim'
 NeoBundle 'tComment'
